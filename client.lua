@@ -16,7 +16,7 @@ end
 -- Draw Qr Code
 addEventHandler( "onClientGotQrImage", resourceRoot,
     function( pixels )
-        -- if qr exists create other
+        -- if QrCode exists create other
         if qrImg then
             removeEventHandler("onClientRender", root, render)
         end
@@ -28,7 +28,7 @@ addEventHandler( "onClientGotQrImage", resourceRoot,
 -- Remove Qr Code
 addEventHandler("removeQrImg", resourceRoot,
     function()
-        -- if exists remove 
+        -- if QrCode exists remove 
         if qrImg then
             if getElementData(localPlayer, "qr.show") == true then
             destroyElement( qrImg )
