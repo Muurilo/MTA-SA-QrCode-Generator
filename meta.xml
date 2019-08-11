@@ -1,5 +1,5 @@
 <meta>
-    <info author="Bolsonaro" version="1.0" name="QR CODE" description="code" type="script"/>
+    <info author="Bolsonaro" version="1.0" name="QR CODE" description="Generate a QrCode" type="script"/>
     <script src="client.lua" type="client" />
     <script src="server.lua" type="server" />
 </meta>
