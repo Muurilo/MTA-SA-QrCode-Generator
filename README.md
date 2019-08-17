@@ -3,6 +3,7 @@
 This script will generate a QrCode
 
 **Required:**
+
 Add the resource to ACL group admin:
 
 **Go to admin Panel > Resources > Manage ACL > two clicks on Admin > Add Object > resource.RESOURCENAME > Press Ok**
